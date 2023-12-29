@@ -1,0 +1,16 @@
+version: "3.4"
+services:
+  ldap.example.org:
+    restart: always
+    hostname: "ldap.example.org"
+    build:
+      context: .
+      dockerfile: Dockerfile  
+    privileged: true
+    expose:
+      - "636"
+    ports:
+      - "636:636"      
+    environment:
+      SMB_ADMIN_PASSWORD: "admin123!"
+      AD_DOMAIN: "DEV-AD"
