@@ -21,8 +21,10 @@ USERNAME : DEV-AD\Administrator
 
 Password : admin123!
 
-![Alt text](image.png)
+![Alt text](img/image.png)
 
-![Alt text](image-1.png)
+![Alt text](img/image-1.png)
+
+![Alt text](img/image-2.png)
 
 Reference : This is based following Article, I have made some refinements : https://schneide.blog/2022/06/27/running-a-containerized-activedirectory-for-developers/
