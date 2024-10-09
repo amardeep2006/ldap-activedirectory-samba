@@ -15,7 +15,7 @@ Run the Active Directory Container
 
 You can use Apache Directory Studio to explore. https://directory.apache.org/studio/
 
-Connect to localhost on port 686
+Connect to localhost on port 636
 
 USERNAME : DEV-AD\Administrator
 
